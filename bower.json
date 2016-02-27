@@ -1,0 +1,33 @@
+{
+  "name": "meantodo",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Ahmed Anas <syed.ahmed.anas@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ahmed-anas/meantodo",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.0",
+    "angular-bootstrap": "~1.2.0",
+    "bootstrap": "~3.3.6",
+    "grunt": "~0.4.5"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "less/bootstrap.less"
+      ]
+    }
+  }
+}
